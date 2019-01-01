@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * Created by Kenny on 2017/8/7.
- */
 @Service
 public class OrderCountService {
     @Autowired

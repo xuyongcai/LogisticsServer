@@ -24,17 +24,14 @@ import static org.junit.Assert.*;
 @SpringBootTest
 @Transactional
 public class OrderControllerTest {
-
     @Autowired
     private WebApplicationContext wac;
-
     private MockMvc mockMvc;
 
     @Before
     public void setUp(){
         mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
     }
-
 
     @Test
     public void selectPage() throws Exception {
